@@ -2,4 +2,8 @@ git init
 git status
 git add . (Adds all the files and subfolders to github)
 git checkout -- . (deletes all the recent changes in the file)
-git commit -m "(commit comment)" ()
+git config --global user.email "you@example.com" (set your git repo email)
+git config --global user.name "yourname" (set your git repo username)
+git commit -m "(commit comment)" (commits changes to the local repo)
+git remote add origin (your repo link)
+git log (shows the log of commits)

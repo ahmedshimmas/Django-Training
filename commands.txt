@@ -1,0 +1,5 @@
+git init
+git status
+git add . (Adds all the files and subfolders to github)
+git checkout -- . (deletes all the recent changes in the file)
+git commit -m "(commit comment)" ()
